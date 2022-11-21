@@ -58,7 +58,14 @@ namespace Exercise_3
                 Node currentNode;
                 currentNode = LAST.next;
                 while (currentNode != LAST)
-                { }
+                {
+                    Console.Write(currentNode.rollNumber+ " " + 
+                        currentNode.name + "\n");
+                    currentNode = currentNode.next; 
+
+                }
+
+
             }
         }
         static void Main(string[] args)
